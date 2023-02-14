@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+*{
+    font-family: 'Unbounded', cursive;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    /* background-color: gray; */
+    top: 0%;
+    left: 0%;
+    padding-bottom: 3px;
+    z-index:5 ;
+    /* box-shadow: 10px 10px 10px gray; */
+    /* background-color: transparent; */
+    background-color: white;
+
+
+}
+.listbox{
+    display: flex;
+
+    margin-top: 10px;
+    width: 50%;
+    right: 0%;
+    align-items: flex-end;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    margin: 0%;
+}
+li{
+    list-style: none;
+    
+    padding: 10px;
+    margin: 5px;
+    
+    font-family: 'Unbounded', cursive;
+    /* font-size: ; */
+    font-weight: bold;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+
+    
+}
+/* li a{
+
+} */
+li:hover{
+    /* border: 2px solid rgb(21, 24, 236); */
+    cursor: pointer;
+    background-color: rgb(133, 164, 190);
+}
+li a{
+    text-decoration: none;
+    color: #04286b;
+}
+.imgbox{
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: #04286b;
+}
+
+.imgmain{
+    border-radius: 50px;
+}
+body{
+    background-color: #04286b;
+}
+.cform{
+    margin-top: 80px ;
+    margin-left: 300px;
+    width: 800px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+
+}
+.formstyle{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 40px ;
+}
+form{
+    width: 80%;
+    margin-top:10px;
+}
+input{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    border: #04286b;
+}
+.in{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border:2px solid #04286b;
+}
+button{
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    width: 86%;
+    border: none;
+    background-color:#04286b;
+    font-size:1rem;
+    color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #4a6fb6;
+    
+}
+label {
+    padding: 11px;
+}
+.formd{
+    width: 50%;
+    margin: 50px ;
+}
+.inin{
+    padding: 10px;
+}
